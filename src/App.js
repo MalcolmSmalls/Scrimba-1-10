@@ -1,23 +1,27 @@
 import React, { Component } from "react"
 
-function App() {
-  return (
-    <div className="App">
+function App(){
+  return(
+    <ol>
+      <li>Closer to getting a job that pays!</li>
+      <li>Able to make modern apps</li>
+      <li>Can make professional websites and apps for clients</li>
+    </ol>
+  )
 
-      <img src="react-logo.png" width="10%"></img>
-      <h1>
-        Fun facts about React
-      </h1>
-      
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 100k stars on Github</li>
-        <li>Is maintained by Facebook</li>
-        <li>Powers thousands of enterprise apps, including mobile apps.</li>
-      </ul>
-    </div>
-  );
 }
 
-export default App;
+
+export default App
+
+/**
+Challenge: 
+
+Part 1: Create a page of your own using a custom Page component
+
+It should return an ordered list with the reasons why you're
+excited to be learning React :)
+
+Render your list to the page
+
+ */
