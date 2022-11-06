@@ -17,14 +17,20 @@ Part 2:
 
 import React, { Component } from "react"
 
+function Header(){
+  return (
+    <header>
+      <nav>
+        <img src = "./react-logo.png" width = "2%" />
+      </nav>
+    </header>
+  )
+}
+
 function App(){
   return(
     <div>
-      <header>
-        <nav>
-          <img src = "./react-logo.png" width = "2%"></img>
-        </nav>
-      </header>
+      {/* <Header /> */}
 
       <h1>Why I'm Excited to Start React</h1>
       <ol>
@@ -42,5 +48,5 @@ function App(){
 }
 
 
-export default App
+export { Header, App }
 
