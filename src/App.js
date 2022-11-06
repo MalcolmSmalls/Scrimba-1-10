@@ -20,7 +20,7 @@ import './App.css'
 
 function Header(){
   return (
-    <header>
+    <header className = "header">
       <nav className = "navigation">
         <img src = "./react-logo.png" className = "logo" />
         <ul className = "nav-items">
@@ -35,7 +35,7 @@ function Header(){
 
 function MainContent(){
   return (
-    <div>
+    <div className = "main-content">
       <h1>Why I'm Excited to Start React</h1>
       <ol>
         <li>Closer to getting a job that pays well!</li>
@@ -49,15 +49,15 @@ function MainContent(){
 
 function Footer(){
   return (
-    <footer>
-    <p>© 2022 Smalls development. All rights reserved.</p>
-  </footer>
+    <footer className = "footer">
+     <p>© 2022 Smalls development. All rights reserved.</p>
+    </footer>
   )
 }
 
 function App(){
   return(
-    <div>
+    <div className = "body">
       <Header />
       <MainContent />
       <Footer />

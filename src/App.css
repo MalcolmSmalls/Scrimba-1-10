@@ -1,18 +1,55 @@
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    margin:0;
+}
+
 .navigation {
     display:flex;
     align-items:center;
+    padding-left:15px;
+    padding-right:15px;
 }
 
 .nav-items{
-    width:350px;
+    width:100%;
     list-style:none;
     display:flex;
     flex-direction:row;
-    gap:10px;
+    gap:20px;
     justify-content:flex-end;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:12px;
 }
 
 .logo {
     height: 3%;
     width: 3%;
+}
+
+.header {
+    height:60px;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    align-content:center;
+    line-height:25px;
+    padding-top:10%;
+    flex:1;
+}
+
+.footer {
+    background-color: #202A44;
+    font-size:12px;
+    min-height:50px;
+    color:white;
+    padding-left:15px;
 }
