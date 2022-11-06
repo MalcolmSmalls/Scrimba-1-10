@@ -22,7 +22,7 @@ function Header(){
   return (
     <header>
       <nav className = "navigation">
-        <img src = "./react-logo.png" width = "3%" height = "3%" className = "logo" />
+        <img src = "./react-logo.png" className = "logo" />
         <ul className = "nav-items">
           <li>Pricing</li>
           <li>About</li>
