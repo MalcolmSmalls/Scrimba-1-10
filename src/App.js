@@ -27,26 +27,40 @@ function Header(){
   )
 }
 
-function App(){
-  return(
+function MainContent(){
+  return (
     <div>
-      {/* <Header /> */}
-
       <h1>Why I'm Excited to Start React</h1>
       <ol>
         <li>Closer to getting a job that pays well!</li>
         <li>Able to make modern apps</li>
         <li>Can make professional websites and apps for clients</li>
       </ol>
+    </div>
 
-      <footer>
-        <p>© 2022 Smalls development. All rights reserved.</p>
-      </footer>
+  )
+}
+
+function Footer(){
+  return (
+    <footer>
+    <p>© 2022 Smalls development. All rights reserved.</p>
+  </footer>
+  )
+}
+
+function App(){
+  return(
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+
     </div>
   )
 
 }
 
-
-export { Header, App }
+export default App
+export { Header, MainContent, Footer }
 
