@@ -16,13 +16,14 @@ Part 2:
 
 
 import React, { Component } from "react"
+import './App.css'
 
 function Header(){
   return (
     <header>
-      <nav>
-        <img src = "./react-logo.png" width = "2%" />
-        <ul>
+      <nav className = "navigation">
+        <img src = "./react-logo.png" width = "3%" height = "3%" className = "logo" />
+        <ul className = "nav-items">
           <li>Pricing</li>
           <li>About</li>
           <li>Contact</li>
